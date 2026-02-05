@@ -1,16 +1,54 @@
-# React + Vite
+# Login Page – Frontend Code Challenge
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+This project is a responsive, pixel-accurate Login Page built using React and Tailwind CSS, based on the provided Adobe XD design.
 
-Currently, two official plugins are available:
+## 🌍 Live Demo
+https://preeminent-dolphin-9ffa96.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🛠 Tech Stack
+- React (Vite)
+- Tailwind CSS
+- JavaScript
 
-## React Compiler
+## 🎯 Features Implemented
+- Pixel-perfect UI based on the provided XD design
+- Fully responsive (desktop, tablet, mobile)
+- Top banner background with overlapping login card
+- Email format validation
+- Password field validation
+- Inline error messages
+- Success message on valid submission (frontend demo)
+- Social login buttons (Google & Facebook UI only)
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📱 Responsiveness
+The layout adapts across:
+- Desktop screens
+- Tablets
+- Mobile devices
 
-## Expanding the ESLint configuration
+## ⚙️ Form Validation
+- Email is required
+- Email must follow valid format (example@domain.com)
+- Password is required
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 How to Run Locally
+
+1. Clone or download the repository
+2. Open a terminal in the project folder
+3. Install dependencies:
+
+   npm install
+
+4. Start development server:
+
+   npm run dev
+
+5. Open in browser:
+
+   http://localhost:5173
+
+## 📦 Build for Production
+
+To generate production build:
+
+npm run build
