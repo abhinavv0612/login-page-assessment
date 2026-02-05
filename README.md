@@ -52,3 +52,7 @@ The layout adapts across:
 To generate production build:
 
 npm run build
+
+## 👤 Author
+
+Developed by **Abhinav Tomar**
